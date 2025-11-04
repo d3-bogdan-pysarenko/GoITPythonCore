@@ -97,6 +97,7 @@ class Car:
 car1 = Car(2018, "Toyota", "Camry", "black")
 car2 = Car(2020, "Honda", "Civic", "white")
 
+print(str(car1))
 print(car1)          # Toyota.Camry: 2018, black
 print(repr(car2))    # Car(2020, 'Honda', 'Civic', 'white')
 
